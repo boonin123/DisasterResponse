@@ -16,9 +16,11 @@ DATA
 disaster_messages.csv - input dataset
 disaster_categories.csv - input dataset
 DisasterResponse.db - target Database file
-process_data.py - python script to accomplish ETL task (see above)
+process_data.py - python script to carry out ETL Pipeline (see above)
 
 MODELS
+train_classifier.py - python script to carry out ML Pipeline (see above)
+classifier.pkl (not included) - target model file
 
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
@@ -33,5 +35,3 @@ MODELS
 3. Run your web app: `python run.py`
 
 4. Click the `PREVIEW` button to open the homepage
-
-In the Project Workspace, you'll find a data set containing real messages that were sent during disaster events. You will be creating a machine learning pipeline to categorize these events so that you can send the messages to an appropriate disaster relief agency.
