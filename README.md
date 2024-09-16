@@ -1,4 +1,24 @@
 # Disaster Response Pipeline Project
+This project's purpose is to develop both ML and ETL pipelines for real messages sent during disaster events. The pipelines will then be used in a web app so emergency workers can input new messages and receive classification results. 
+
+### ETL Pipeline
+The ETL pipeline merges the disaster_messages.csv and disaster_categories.csv datasets, cleans them, and adds them into a Database file DisasterResponse.db
+
+### ML Pipeline
+The ML pipelines takes the Disaster Response database as input. It then trains and tunes a decision tree classifier and saves it as the file classifier.pkl
+
+### Files
+APP
+templates - templates for web app
+run.py - python file to run web app
+
+DATA
+disaster_messages.csv - input dataset
+disaster_categories.csv - input dataset
+DisasterResponse.db - target Database file
+process_data.py - python script to accomplish ETL task (see above)
+
+MODELS
 
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
@@ -13,3 +33,5 @@
 3. Run your web app: `python run.py`
 
 4. Click the `PREVIEW` button to open the homepage
+
+In the Project Workspace, you'll find a data set containing real messages that were sent during disaster events. You will be creating a machine learning pipeline to categorize these events so that you can send the messages to an appropriate disaster relief agency.
