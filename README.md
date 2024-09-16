@@ -9,18 +9,18 @@ The ML pipelines takes the Disaster Response database as input. It then trains a
 
 ### Files
 APP
-templates - templates for web app
-run.py - python file to run web app
+- templates - HTML templates for web app
+- run.py - python file to run web app
 
 DATA
-disaster_messages.csv - input dataset
-disaster_categories.csv - input dataset
-DisasterResponse.db - target Database file
-process_data.py - python script to carry out ETL Pipeline (see above)
+- disaster_messages.csv - input dataset
+- disaster_categories.csv - input dataset
+- DisasterResponse.db - target Database file
+- process_data.py - python script to carry out ETL Pipeline (see above)
 
 MODELS
-train_classifier.py - python script to carry out ML Pipeline (see above)
-classifier.pkl (not included) - target model file
+- train_classifier.py - python script to carry out ML Pipeline (see above)
+- classifier.pkl (not included) - target model file
 
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
